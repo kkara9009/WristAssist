@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WristAssist" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/wristassist_purple</item>
+        <item name="colorPrimaryVariant">@color/wristassist_purple</item>
+        <item name="colorOnPrimary">@color/wristassist_black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/wristassist_purple</item>
+        <item name="colorSecondaryVariant">@color/wristassist_purple</item>
+        <item name="colorOnSecondary">@color/wristassist_black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/wristassist_black</item>
+        <item name="dialogTheme">@style/Theme.AlertDialog</item>
+        <item name="alertDialogTheme">@style/Theme.AlertDialog</item>
+        <item name="alertDialogStyle">@style/Theme.AlertDialog</item>
+
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Theme.Starting" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@color/wristassist_black</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/wristassist_purple</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/wristassist_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.WristAssist</item>
+    </style>
+
+    <style name="Theme.AlertDialog" parent="AlertDialog.AppCompat">
+        <item name="colorPrimary">@color/wristassist_purple</item>
+        <item name="colorPrimaryDark">@color/wristassist_black</item>
+        <item name="colorAccent">@color/wristassist_purple</item>
+        <item name="android:textColor">@color/wristassist_white</item>
+        <item name="android:background">@color/wristassist_black</item>
+        <item name="android:popupBackground">@color/wristassist_black</item>
+        <item name="android:windowBackground">@color/wristassist_black</item>
+        <item name="android:itemBackground">@color/wristassist_black</item>
+    </style>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wristassist_menu_new_chat">Neuer Chat</string>
+    <string name="wristassist_menu_saved_chats">Chats</string>
+    <string name="wristassist_menu_settings">Einstellungen</string>
+    <string name="wristassist_menu_about">Über</string>
+    <string name="wristassist_no_internet">Verbindung zur API fehlgeschlagen. Bitte kontrolliere deine Internet Verbindung.</string>
+    <string name="wristassist_timeout">Der Timeout von 120 Sekunden wurde erreicht. Wahrscheinlich war die Antwort sehr lang oder die API ist überlastet.</string>
+    <string name="wristassist_invalid_api_key_message">Der von dir eingegebene API-Schlüssel ist ungültig. Gehe zu den Einstellungen und überprüfe den von dir angegebenen API-Schlüssel.</string>
+    <string name="wristassist_no_saved_chats">Du hast noch keine Chats gespeichert.\nTippe in einem neuen Chat auf den Speichern-Button, um zu speichern.</string>
+    <string name="wristassist_change_api_key">API-Schlüssel ändern</string>
+    <string name="wristassist_no_api_key">Kein API-Schlüssel festgelegt</string>
+    <string name="wristassist_vibrate">Vibrieren</string>
+    <string name="wristassist_font_size">Schriftgröße</string>
+    <string name="wristassist_show_cost">Verbrauch anzeigen</string>
+    <string name="wristassist_select_model">Chat-KI Modell</string>
+    <string name="wristassist_okay">OK</string>
+    <string name="wristassist_cancel">Abbrechen</string>
+    <string name="wristassist_click_to_reveal">Klicke zum Anzeigen</string>
+    <string name="wristassist_welcome">Willkommen bei\nWristAssist</string>
+    <string name="wristassist_welcome_info">Bitte scanne den QR-Code, um Anweisungen zur Einrichtung und Nutzung von WristAssist zu erhalten.</string>
+    <string name="wristassist_api_settings">API Einstellungen</string>
+    <string name="wristassist_chat_settings">Chat Einstellungen</string>
+    <string name="wristassist_tts_settings">TTS Einstellungen</string>
+    <string name="wristassist_tts">TTS</string>
+    <string name="wristassist_tts_volume">TTS Lautstärke</string>
+    <string name="wristassist_tts_lang_not_available">TTS-Sprache nicht verfügbar. Download in den Einstellungen.</string>
+    <string name="wristassist_tts_not_available">Verbindung zur TTS-Engine konnte nicht hergestellt werden.</string>
+    <string name="wristassist_chat_reset">Chat zurückgesetzt</string>
+    <string name="wristassist_chat_deleted">Chat gelöscht</string>
+    <string name="wristassist_edit_chat_title">Chat Titel ändern</string>
+    <string name="wristassist_enter_prompt">Anweisung:</string>
+    <string name="wristassist_prompt">Schreibe einen Artikel …</string>
+    <string name="wristassist_enter_system_prompt">System-Anweisung:</string>
+    <string name="wristassist_system_prompt">Sprich wie Yoda</string>
+    <string name="wristassist_set_api_key">API Schlüssel festlegen</string>
+    <string name="wristassist_api_key">API Schlüssel</string>
+    <string name="wristassist_set_chat_title">Chat Titel festlegen</string>
+    <string name="wristassist_chat_title">Chat Titel</string>
+    <string name="wristassist_context_exceeded">Dein Chat ist zu lang für die KI. Bitte setze ihn zurück oder beginne einen neuen.</string>
+    <string name="wristassist_quota_exceeded">Du hast dein aktuelles Kontingent überschritten. Bitte überprüfe deinen Tarif und deine Abrechnungsdetails.</string>
+    <string name="wristassist_no_access">Dieses Modell gibt es nicht oder du hast keinen Zugang dazu.</string>
+    <string name="changelog_md">## Neuigkeiten  \n*Die folgenden Verbesserungen wurden seit der letzten Veröffentlichung von WristAssist hinzugefügt:*  \n</string>
+    <string name="changelog_md_22">### Version 2.5.0  \n#### Automatische Spracheingabe  \nEine Einstellung hinzugefügt, um die Spracheingabe in Chats automatisch zu öffnen (spart ein paar Klicks)  \n#### Benutzerdefinierter API-Server  \nEine Einstellung hinzugefügt, um deinen privaten OpenAI-ähnlichen API-Server auszuwählen  \n#### Changelog  \nDiese Changelog-Aktivität hinzugefügt, damit du über alle kommenden Neuigkeiten informiert wirst  \n</string>
+    <string name="changelog_md_21">### Version 2.4.0  \n#### Markdown-Darstellung in Chats hinzugefügt  \nDie KI-Modelle zeigen manchmal Text in **fett**, *Kursivschrift* oder &lt;u&gt;unterstrichen&lt;/u&gt; an. Diese und andere Formatierungen werden nun korrekt angezeigt.  \n#### GPT-4 Turbo Modell hinzugefügt  \nGPT-4 Turbo ist leistungsfähiger und kennt das Weltgeschehen bis zum April 2023. Es ist 2 bis 3 Mal günstiger als GPT-4.  \n#### Ausführlichere Fehlermeldungen  \nFehler wie zu lange Chats, Kontingent Überschreitung und ungültige Modelle werden nun korrekt angezeigt.  \n#### mehrere Fehlerbehebungen  \n</string>
+    <string name="wristassist_no_speech_recognition">Keine Tastatur mit Spracherkennung installiert</string>
+    <string name="wristassist_hands_free">Freisprech Eingabe</string>
+    <string name="wristassist_custom_host">Eigener Host</string>
+    <string name="wristassist_custom_model">Eigenes Modell</string>
+    <string name="wristassist_custom_server">Eigener API Server</string>
+    <string name="wristassist_invalid_host">Ungültiges URL-Format</string>
+    <string name="wristassist_ai">KI</string>
+    <string name="wristassist_complication_description">Komplikation zum Öffnen von WristAssist</string>
+    <string name="changelog_md_23">### Version 2.6.0  \n#### Komplikation für Watchfaces hinzugefügt  \nEine Komplikation für deine Watchfaces wurde hinzugefügt, mit der du schnell den WristAssist-Eingabebildschirm öffnen kannst.  \n#### Schnelles Scrollen  \nWenn du auf einen gespeicherten Chat-Titel klickst, wird er sofort nach unten gescrollt.  \n#### Vibration bei Fehler  \nWenn im Chat ein Fehler auftritt, spürst du jetzt eine andere Vibration.  \n</string>
+    <string name="wristassist_tts_on">An</string>
+    <string name="wristassist_tts_off">Aus</string>
+    <string name="wristassist_tts_on_auto">An + automatisch vorlesen</string>
+    <string name="wristassist_tts_adapt_to_input">An Eingabemethode angepasst</string>
+    <string name="changelog_md_24">### Version 2.6.1  \n#### Weitere TTS-Einstellungen hinzugefügt  \nDie TTS-Einstellungen sind jetzt in einer einzigen Liste zusammengefasst. Du kannst wählen zwischen: Ein, Aus, Ein und Automatisch lesen und angepasst an die Eingabemethode.  \n</string>
+    <string name="wristassist_menu_usage">Verbrauch</string>
+    <string name="wristassist_token_usage" formatted="false">Token Verbauch: %1$s</string>
+    <string name="wristassist_estimated_cost" formatted="false">Kosten: ~ %1$s $</string>
+    <string name="wristassist_reset">Zurücksetzen</string>
+    <string name="wristassist_total_cost" formatted="false">Gesamtkosten: ~ %1$s $</string>
+    <string name="wristassist_no_usage_yet">Kein Verbrauch bisher</string>
+    <string name="wristassist_instant_input">Direkte Eingabe</string>
+    <string name="changelog_md_25">### Version 2.7.0  \n#### Aktivität zum Überprüfen des Verbrauchs  \nAktivität hinzugefügt, um die Nutzung der einzelnen Modelle zu überprüfen.  \n#### Direkte Eingabe  \nEinstellung zum sofortigen Starten eines neuen Chats hinzugefügt.  \n#### Mehrere Fehlerbehebungen  \n</string>
+    <string name="wristassist_menu_images">Bilder</string>
+    <string name="wristassist_describe_image">Beschreibe das Bild</string>
+    <string name="wristassist_image_hint">Ein süßer Hund mit einem Hut</string>
+    <string name="wristassist_last_modified">Zuletzt bearbeitet:</string>
+    <string name="wristassist_chat_cost">Token Verbrauch:</string>
+    <string name="wristassist_images_settings">Bilder Einstellungen</string>
+    <string name="wristassist_select_image_model">Bilder-KI Modell</string>
+    <string name="wristassist_select_image_quality">Bild Qualität</string>
+    <string name="wristassist_select_image_size">Bild Größe</string>
+    <string name="wristassist_select_image_style">Bild Stil</string>
+    <string name="wristassist_image_quality_vivid">Lebendig</string>
+    <string name="wristassist_image_quality_natural">Natürlich</string>
+    <string name="wristassist_open_image_prompt">Beschreibung:</string>
+    <string name="wristassist_open_image_revised_prompt">Überarbeitete Beschreibung:</string>
+    <string name="wristassist_open_image_model">Modell:</string>
+    <string name="wristassist_open_image_quality">Qualität:</string>
+    <string name="wristassist_open_image_size">Größe:</string>
+    <string name="wristassist_open_image_style">Stil:</string>
+    <string name="wristassist_open_image_created">Erstellt:</string>
+    <string name="wristassist_images_count" formatted="false">Anzahl an Bildern: %1$s</string>
+    <string name="wristassist_image_expires_in" formatted="false">Geteilter Link läuft in %1$d Minuten ab</string>
+    <string name="wristassist_image_request_rejected">Die Anfrage wurde abgelehnt. Deine Anfrage enthält möglicherweise Text, der nicht erlaubt ist.</string>
+    <string name="changelog_md_26">### Version 3.0.0  \n#### Bilder KI (DALL-E) hinzugefügt  \nDu kannst nun mit OpenAI\'s Dall-E Bilder generieren, speichern und über einen QR-Code teilen. In den Einstellungen kannst du zwischen verschiedenen Modellen, Qualitäten und Größen wechseln.  \n#### Mehrere Fehlerbehebungen und Design Änderungen  \n</string>
+    <string name="wristassist_saving">Speichert …</string>
+    <string name="changelog_md_27">### Version 3.0.1  \n#### Wichtiger Hinweis: Änderungen an der OpenAI-API-Abrechnung  \nOpenAI aktualisiert die Art und Weise, wie dein OpenAI-API-Konto ab **8. März 2024** abgerechnet wird. Anstatt eine Rechnung am Ende des Monats zu erhalten, musst du **Guthaben im Voraus erwerben**, um die API zu nutzen. <u>Klicke einfach auf die Schaltfläche "OK", um Guthaben zu deinem Konto hinzuzufügen.</u> Andernfalls werden API-Anfragen für WristAssist vorübergehend fehlschlagen, bis Guthaben erworben wird.  \n</string>
+    <string name="changelog_md_28">### Version 3.0.2  \n#### Mehrere Fehlerbehebungen und Design Änderungen  \n</string>
+    <string name="changelog_md_29">### Version 3.0.3  \n#### Neues GPT-4 Omni-Modell  \nOpenAI hat ein neues Flaggschiff-Modell eingeführt, das Audio, Vision und Text in Echtzeit verarbeiten kann. Unterstützung für andere Eingabemethoden als Text wird in Zukunft verfügbar sein. Dieses Modell ist nur halb so teuer wie "GPT-4 Turbo" und kann in den Einstellungen ausgewählt werden.  \n</string>
+</resources>
